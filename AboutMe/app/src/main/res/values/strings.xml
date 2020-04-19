@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AboutMe</string>
+    <string name="information">PROVIDE YOUR INFORMATION</string>
+    <string name="enter_your_tribe">Enter your tribe</string>
+    <string name="where_do_you_live">Where do you live</string>
+    <string name="youtube_channel">What is your favorite youtube channel</string>
+    <string name="name">Enter your name</string>
+    <string name="age">Enter your age</string>
+    <string name="submit_btn">Submit</string>
+</resources>

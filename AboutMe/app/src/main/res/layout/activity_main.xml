@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="25dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/information"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="number|textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_tribe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_tribe"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/where_do_you_live"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/youtube_channel"
+        android:inputType="text" />
+
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mainActivityAction"
+        android:text="@string/submit_btn" />
+
+    <TextView
+        android:id="@+id/txv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>
